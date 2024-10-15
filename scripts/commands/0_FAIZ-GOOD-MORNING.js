@@ -3,7 +3,7 @@ module.exports.config = {
   name: "good morning",
   version: "1.0.1",
   permssion: 0,
-  credits: "ARIF BABU", 
+  credits: "FAIZ ANSARI", 
   prefix : true,
   description: "noprefix gif",
   category: "no prefix",
