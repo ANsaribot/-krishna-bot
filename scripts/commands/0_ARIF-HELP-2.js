@@ -67,9 +67,9 @@ module.exports. run = function({ api, event, args, getText }) {
     for (let item of returnArray) msg += `𒁍  [${++i}] → ${prefix}${item} ╭•┄┅═══❁🌺\n`;
 
 
-    const siu = `╭•┄┅═══❁🌺❁═══┅┄•╮\n  🌺  𝐀𝐑𝐈𝐅-𝐁𝐀𝐁𝐔  🌺\n╰•┄┅═══❁🌺❁═══┅┄•╯\n\n╭•┄┅═══❁🌺 TOTAL COMMAND LIST 🌺❁═══┅┄•╯`;
+    const siu = `╭•┄┅═══❁🌺❁═══┅┄•╮\n  🌺  𝐅𝐀𝐈𝐙-𝐀𝐍𝐒𝐀𝐑𝐈  🌺\n╰•┄┅═══❁🌺❁═══┅┄•╯\n\n╭•┄┅═══❁🌺 TOTAL COMMAND LIST 🌺❁═══┅┄•╯`;
 
- const text = `PAGE 𒁍  [ ${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)} ]\n\n𝐎𝐑 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐊𝐄 𝐋𝐈𝐘𝐄 𝐇𝐀𝐈 𝐌𝐄𝐍𝐔 𝐓𝐘𝐏𝐄 𝐊𝐑𝐎\n𝐓𝐇𝐈𝐒 𝐁𝐎𝐓 𝐈𝐒 𝐌𝐀𝐃𝐄 𝐁𝐘𝐄 𝐌𝐑 𝐀𝐑𝐈𝐅-𝐁𝐀𝐁𝐔 🙂✌️\n\n•┄┅═══❁🌺ARIF-BABU🌺❁═══┅┄•`;
+ const text = `PAGE 𒁍  [ ${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)} ]\n\n𝐎𝐑 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐊𝐄 𝐋𝐈𝐘𝐄 𝐇𝐀𝐈 𝐌𝐄𝐍𝐔 𝐓𝐘𝐏𝐄 𝐊𝐑𝐎\n𝐓𝐇𝐈𝐒 𝐁𝐎𝐓 𝐈𝐒 𝐌𝐀𝐃𝐄 𝐁𝐘𝐄 𝐌𝐑 𝐅𝐀𝐈𝐙-𝐀𝐍𝐒𝐀𝐑𝐈 🙂✌️\n\n•┄┅═══❁🌺FAIZ-ANSARI🌺❁═══┅┄•`;
 
     return api.sendMessage(siu + "\n\n" + msg  + text, threadID, async (error, info) => {
       if (autoUnsend) {
