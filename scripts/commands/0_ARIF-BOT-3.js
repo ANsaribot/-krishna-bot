@@ -30,9 +30,9 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   ////////////////@prem-babu3608/////////////////
    mess = "{name}"
 
-  if (event.body.includes("arif") == 1 || (event.body.includes("Arif") == 1)) {
+  if (event.body.includes("Faiz") == 1 || (event.body.includes("FAIZ") == 1)) {
     var msg = {
-      body: `🐥 ${name} 🐥\n\n 👉${rand} \n\n   •┄┅═══❁🌺 आरिफ बाबू 🌺❁═══┅┄•`
+      body: `🐥 ${name} 🐥\n\n 👉${rand} \n\n   •┄┅═══❁🌺 फैज अंसारी 🌺❁═══┅┄•`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
