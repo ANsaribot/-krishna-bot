@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "ARIF-HELLO-HY",
+  name: "FAIZ-HELLO-HY",
   version: "1.0.1",
   permssion: 0,
   prefix: true,
