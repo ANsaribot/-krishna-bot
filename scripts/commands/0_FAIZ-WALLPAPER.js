@@ -74,7 +74,7 @@ module.exports.run = async ({ api, event, args }) => {
 
     if (streams.length > 0) {
       let msg = {
-        body: `𝐂𝐑𝐄𝐀𝐓𝐄𝐑 𝐀𝐑𝐈𝐅 𝐁𝐀𝐁𝐔 ♥️`,
+        body: `𝐂𝐑𝐄𝐀𝐓𝐄𝐑 𝐅𝐀𝐈𝐙 𝐀𝐍𝐒𝐀𝐑𝐈 ♥️`,
         attachment: streams
       };
 
