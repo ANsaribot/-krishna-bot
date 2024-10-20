@@ -16,7 +16,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   if (event.body.indexOf("nacho")==0 || event.body.indexOf("Nacho")==0 || event.body.indexOf("NACHO")==0 || event.body.indexOf("naco")==0 || event.body.indexOf("NACO")==0 || event.body.indexOf("नाचो")==0) {
     var msg = {
         body: "𝐍𝐀𝐂𝐇𝐎 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍 𝐍𝐀𝐂𝐇𝐎 🙂🤟 ❜",
-        attachment: fs.createReadStream(__dirname + `/noprefix/DANCE.gif`)
+        attachment: fs.createReadStream(__dirname + `/noprefix/DANCE (1).gif`)
       }
       api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("❤️‍🩹", event.messageID, (err) => {}, true)
